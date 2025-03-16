@@ -1,0 +1,14 @@
+# Ignore node_modules in frontend and backend
+/frontend/node_modules/
+/backend/node_modules/
+
+# Ignore all .env files
+**/.env
+
+# Optional: Ignore logs and other unnecessary files
+*.log
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
