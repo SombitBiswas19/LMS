@@ -1,0 +1,47 @@
+# Root-level virtual environments
+venv/
+env/
+
+# Backend virtual environment
+backend/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# VSCode settings
+.vscode/
+
+# Frontend (Node.js) artifacts
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Compiled files
+*.class
+*.exe
+*.dll
+*.so
+
+# IDE settings
+.idea/
+*.iml
